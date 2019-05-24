@@ -1,0 +1,49 @@
+body{
+        background: url(../imgs/background.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+    .card{
+        background: rgba(255, 255, 255, 0.85);
+        background: -webkit-linear-gradient(left, #4abdce , rgb(240, 253, 0)); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #4abdce , rgb(240, 253, 0)); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #4abdce , rgb(240, 253, 0)); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #4abdce , rgb(240, 253, 0)); /* Standard syntax (must be last) */
+        border: none;
+    }   
+    .card-header{        
+        background: transparent;
+    }
+    .card-header img{
+        opacity: .8;
+        border: 2px, solid, linear-gradient(to right, #4abdce , rgb(240, 253, 0));
+    }
+    .card-header img{
+        width: 100%;
+        padding: 0.1rem;
+        margin-bottom: -50px;
+    }
+    .card-footer{
+        margin-top: -3rem;
+        background: transparent;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    li{
+        display: inline; 
+        padding: 10px;
+
+    }
+    li img{
+        width: auto;
+        height: 50px;
+        padding: 2px;
+        margin-top: -3px;
+    }
+    

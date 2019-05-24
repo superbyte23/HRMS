@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carbon - Admin Template</title>
+    <link rel="stylesheet" href="./vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="./vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<div class="page-wrapper flex-row align-items-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card p-4">
+                    <div class="card-header text-center text-uppercase h4 font-weight-light">
+                        <img src="imgs/login.png">
+                    </div>
+                    <form method="POST" action="app/login.php">
+                        <div class="card-body py-5">
+                            <div class="form-group">
+                                <label class="form-control-label">Username</label>
+                                <input type="text" class="form-control" name="username" required="" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-control-label">Password</label>
+                                <input type="password" class="form-control" name="password" required="" autocomplete="off">
+                            </div>
+                            <!-- 
+                            <div class="custom-control custom-checkbox mt-4">
+                                <input type="checkbox" class="custom-control-input" id="login">
+                                <label class="custom-control-label" for="login">Check this custom checkbox</label>
+                            </div> -->
+                            
+                            <div class="form-group">
+                                <button type="submit" name="login" class="btn btn-primary btn-block">Login</button>
+                            </div>
+                            <div class="form-group">
+                                 <a href="#" class="btn btn-link">Forgot password?</a>
+                            </div> 
+                        </div>
+                        <div class="card-footer">
+                            <ul>
+                                <li><img src="imgs/social/fb.png"><a href="#">Facebook</a></li>
+                                <li><img src="imgs/social/youtube.png"><a href="#">Youtube</a></li>
+                                <li><img src="imgs/social/twitter.png"><a href="#">Twitter</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    body{
+        background: url(imgs/background.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+    .card{
+        background: rgba(255, 255, 255, 0.85);
+    }
+    .card-header{
+        
+        background: transparent;
+    }
+    .card-header img{
+        width: 100%;
+        padding: 0.1rem;
+        margin-bottom: -50px;
+    }
+    .card-footer{
+        margin-top: -3rem;
+        background: transparent;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    li{
+        display: inline; 
+        padding: 10px;
+
+    }
+    li img{
+        width: auto;
+        height: 30px;
+        padding: 2px;
+        margin-top: -3px;
+    }
+</style>
+<script src="./vendor/jquery/jquery.min.js"></script>
+<script src="./vendor/popper.js/popper.min.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="./vendor/chart.js/chart.min.js"></script>
+<script src="./js/carbon.js"></script>
+<script src="./js/demo.js"></script>
+</body>
+</html>
